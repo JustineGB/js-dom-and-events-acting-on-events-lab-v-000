@@ -23,7 +23,7 @@ function addNewLiOnClick(event){
   submit.addEventListener('click', event => {
     addNewElementAsLi();
     clearFormField();
-  //return false;
+    return false;
   })
 }
 
