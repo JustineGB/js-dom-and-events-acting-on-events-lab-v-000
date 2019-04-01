@@ -27,10 +27,10 @@ function addNewLiOnClick(event){
   })
 }
 
-function extractValue() {
-    var value = $("#submit").val().trim();
-    console.log(value);
-};
+// function extractValue() {
+//     var value = $("#submit").val().trim();
+//     console.log(value);
+// };
 
 
 function clearEmployeeListOnLinkClick() {
@@ -38,6 +38,10 @@ function clearEmployeeListOnLinkClick() {
   x.addEventListener('click', event => { event.preventDefault();
   $('ul').innerHTML = '';
   })
+}
+
+function clearFormField() {
+  document.getElementById('myform').reset();
 }
 
 
