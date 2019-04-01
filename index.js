@@ -33,7 +33,7 @@ function clearEmployeeListOnLinkClick() {
   // let x = document.querySelector('elist')
   // x.addEventListener('click', event => { event.preventDefault();
   // $('ul').innerHTML = '';
-  var ul = document.getElementById("ulMessages");
+  var ul = document.getElementById("elist");
   while((var lis = ul.getElementsByTagName("li")).length > 0) {
 	ul.removeChild(lis[0]);
 }
