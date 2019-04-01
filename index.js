@@ -28,13 +28,13 @@ function addNewLiOnClick(event){
 }
 
 function clearEmployeeListOnLinkClick() {
-  // alert(elist);
   // //let x = document.getElementById('elist').reset();
   // let x = document.querySelector('elist')
   // x.addEventListener('click', event => { event.preventDefault();
   // $('ul').innerHTML = '';
   var ul = document.getElementById("elist");
   while(ul.firstChild) ul.removeChild(ul.firstChild);
+    alert(ul);
   }
 
 
