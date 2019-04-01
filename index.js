@@ -5,17 +5,18 @@ function preventRefreshOnSubmit(){
 }
 preventRefreshOnSubmit()
 
-
 function retrieveEmployeeInformation(input){
   let employee = document.querySelector('input').value
   return employee;
 }
 
-
 function addNewElementAsLi(){
   $('ul.employee-list').append(retrieveEmployeeInformation());
 }
 
+function clearFormField() {
+  $('#input').find("input:not([type="submit"), textarea").val("");
+}
 function addNewLiOnClick(event){
   let submit = $('form input:last')[0];
   submit.addEventListener('click', event => {
