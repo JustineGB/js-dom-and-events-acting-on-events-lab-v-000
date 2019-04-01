@@ -27,12 +27,6 @@ function addNewLiOnClick(event){
   })
 }
 
-// function extractValue() {
-//     var value = $("#submit").val().trim();
-//     console.log(value);
-// };
-
-
 function clearEmployeeListOnLinkClick() {
   let x = document.querySelector('#clear')
   x.addEventListener('click', event => { event.preventDefault();
