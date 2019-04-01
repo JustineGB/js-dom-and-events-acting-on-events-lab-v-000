@@ -15,7 +15,7 @@ function addNewElementAsLi(){
 }
 
 function clearFormField() {
-  document.getElementById('myform').reset()
+  document.getElementById('myform').reset();
   ///$('#input').find("input:not([type="submit"]), textarea").val("");
 }
 
