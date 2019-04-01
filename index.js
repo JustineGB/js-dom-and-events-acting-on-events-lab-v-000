@@ -28,11 +28,17 @@ function addNewLiOnClick(event){
 }
 
 function clearEmployeeListOnLinkClick() {
-  alert(elist);
-  //let x = document.getElementById('elist').reset();
-  let x = document.querySelector('elist')
-  x.addEventListener('click', event => { event.preventDefault();
-  $('ul').innerHTML = '';
+  // alert(elist);
+  // //let x = document.getElementById('elist').reset();
+  // let x = document.querySelector('elist')
+  // x.addEventListener('click', event => { event.preventDefault();
+  // $('ul').innerHTML = '';
+  var ul = document.getElementById("ulMessages");
+  while((var lis = ul.getElementsByTagName("li")).length > 0) {
+	ul.removeChild(lis[0]);
+}
+
+
   })
 }
 
