@@ -29,7 +29,7 @@ function addNewLiOnClick(event){
 
 function clearEmployeeListOnLinkClick() {
   alert('this');
-  console.log(this)
+  console.log(this);
     document.getElementById('employee-list').reset();
   //let x = document.querySelector('#clear')
   //x.addEventListener('click', event => { event.preventDefault();
