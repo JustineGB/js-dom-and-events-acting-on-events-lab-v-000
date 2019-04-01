@@ -31,6 +31,7 @@ function clearEmployeeListOnLinkClick() {
   let x = document.getElementById('clear')
   alert(x);
   x.addEventListener('click', event => { event.preventDefault()
+  let list = document.getElementById
   $('ul').innerHTML = '';
   })
 }
