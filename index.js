@@ -23,9 +23,6 @@ function addNewLiOnClick(event){
   submit.addEventListener('click', event => {
     addNewElementAsLi();
     clearFormField();
-    //$('input').reset();
-  //let name = document.querySelector('input').value
-  //name.reset();
   //return false;
   })
  
