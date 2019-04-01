@@ -15,8 +15,9 @@ function addNewElementAsLi(){
 }
 
 function clearFormField() {
-  $('#input').find("input:not([type="submit"), textarea").val("");
+  $('#input').find("input:not([type="submit"]), textarea").val("");
 }
+
 function addNewLiOnClick(event){
   let submit = $('form input:last')[0];
   submit.addEventListener('click', event => {
