@@ -28,15 +28,13 @@ function addNewLiOnClick(event){
 }
 
 function clearEmployeeListOnLinkClick() {
-  
+    document.getElementById('myform').reset();
   //let x = document.querySelector('#clear')
   //x.addEventListener('click', event => { event.preventDefault();
   //$('ul').innerHTML = '';
   //})
 }
 
-function clearFormField() {
-  document.getElementById('myform').reset();
-}
+
 
 
