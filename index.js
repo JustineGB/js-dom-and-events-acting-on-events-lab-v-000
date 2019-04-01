@@ -25,7 +25,6 @@ function addNewLiOnClick(event){
     clearFormField();
   //return false;
   })
- 
 }
 
 function extractValue() {
