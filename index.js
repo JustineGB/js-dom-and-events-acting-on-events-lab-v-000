@@ -36,10 +36,7 @@ function clearEmployeeListOnLinkClick() {
   var ul = document.getElementById("elist");
   while((var lis = ul.getElementsByTagName("li")).length > 0) {
 	ul.removeChild(lis[0]);
-}
-
-
-  })
+  }
 }
 
 
